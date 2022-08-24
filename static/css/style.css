@@ -21,12 +21,7 @@ button{
     padding: 8px 12px;
     gap: 10px;
 }
-.mt-35{
-    margin-top: 35px;
-}
-.mt-100{
-    margin-top: 100px;
-}
+
 /* CSS overwrite navbar */
 .navbar{
     padding-top: 16px;
@@ -204,13 +199,13 @@ p{
 /* For small width bootstrap */
 @media (max-width: 767.9px){
     .content .col-img{
-        height: 376px;
+        height: 289px;
     }
     .content img{
         max-width: 444.22px;
         max-height: 279px;
         right: 0;
-        top: 557px;
+        top: 470px;
     }
 
     .card__mod{
@@ -242,6 +237,13 @@ p{
     }
     .first-pos{
         transform: translate(1%, 0px);
+    }
+
+    .mt-35{
+        margin-top: 35px;
+    }
+    .mt-100{
+        margin-top: 100px;
     }
 
     .card:hover, .card-feature:hover{
