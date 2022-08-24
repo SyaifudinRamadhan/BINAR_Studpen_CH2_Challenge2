@@ -51,20 +51,6 @@ p{
     min-height: 500px;
     background-color: #f1f3ff;
 }
-.top-layout .row{
-    /* margin: unset;
-    padding: unset;
-    height: calc(100% - 97px);
-    margin-top: 20px; */
-}
-.top-layout .col-md{
-    /* margin: unset;
-    padding: unset;
-    height: 100%; */
-}
-.top-layout .navbar{
-    /* margin-top: 25px; */
-}
 .top-layout .navbar-brand{
     width: 100px;
     height: 24px;
