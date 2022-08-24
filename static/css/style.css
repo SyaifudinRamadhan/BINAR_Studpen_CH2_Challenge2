@@ -21,6 +21,9 @@ button{
     padding: 8px 12px;
     gap: 10px;
 }
+.offcanvas-header{
+    padding: 30px 30px 0px 30px;
+}
 
 /* CSS overwrite navbar */
 .navbar{
@@ -130,7 +133,7 @@ p{
         max-width: 502px;
         max-height: 307px;
         right: 0;
-        top: 216px;
+        top: 220px;
     }
     .content h1{
         margin-top: unset;
@@ -205,9 +208,11 @@ p{
         max-width: 444.22px;
         max-height: 279px;
         right: 0;
-        top: 470px;
+        top: 450px;
     }
-
+    .text-top-layout{
+        width: 70% !important;
+    }
     .card__mod{
         padding: 40px 32px;
     }
@@ -253,13 +258,16 @@ p{
     }
 }
 /* For popular mobile devices */
-@media (max-width: 390px){
+@media (max-width: 423px){
     .content img{
         max-width: 444.22px;
         max-height: 279px;
         right: 0;
-        top: 620px;
+        top: 540px;
         width: 100%;
+    }
+    .offcanvas.offcanvas-end{
+        width: 50%;
     }
 }
 /* ----------------------------------------- */
